@@ -1,11 +1,11 @@
 ﻿
-using Practical_01;
+using Example;
 using System.Diagnostics;
 using System.Reflection;
 using System.Xml.Linq;
 using System.Xml;
 
-namespace Practical_01
+namespace Example
 {
     class Cars
     {
@@ -39,7 +39,7 @@ namespace Practical_01
         {
             Console.WriteLine($"Автосалон: {Id}");
             Console.WriteLine($" Марка: {Model}");
-            Console.WriteLine($"Рік: {Year}");
+            Console.WriteLine($" Рік: {Year}");
             Console.WriteLine($" Ціна: {Price}");
         }
     }
@@ -47,6 +47,7 @@ namespace Practical_01
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             XmlDocument xml = new XmlDocument();
             xml.Load(@"C:\Users\svtko\OneDrive\Робочий стіл\Лаби\ООП2\Practical_01\Practical_01\XMLFile1.xml");

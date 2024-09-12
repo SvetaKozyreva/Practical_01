@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dogs>
+	<dog>
+		<dogName>Кулька</dogName>
+		<dogWeight caption="кг">18</dogWeight>
+		<dogColor>рудий із чорними підпалинами</dogColor>
+	</dog>
+	<dog>
+		<dogName>Тузик</dogName>
+		<dogWeight caption="кг">10</dogWeight>
+		<dogColor>білий з чорними плямами</dogColor>
+	</dog>
+	<dog>
+		<dogName>Бобік</dogName>
+		<dogWeight caption="кг">2</dogWeight>
+		<dogColor>біло-сірий</dogColor>
+	</dog>
+	<dog>
+		<dogName>Трезор</dogName>
+		<dogWeight caption="кг">25</dogWeight>
+		<dogColor>чорний</dogColor>
+	</dog>
+</dogs>
